@@ -1,0 +1,7 @@
+#pragma once
+
+// Does the system we're working on have tbb
+#cmakedefine USE_TBB
+// Does the system we're working on have cuda
+#cmakedefine USE_CUDA
+

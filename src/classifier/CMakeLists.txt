@@ -1,0 +1,2 @@
+add_library(classifier weakclassifier.cpp textonboost.cpp)
+target_link_libraries(classifier algorithm)
